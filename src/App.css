@@ -1,8 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
 body {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
   position: relative;
+  font-family: "Lato", sans-serif;
 }
 /* #root {
   position: relative;
@@ -364,7 +366,12 @@ header ul a.active {
 }
 .footer .social-media {
   display: flex;
-  gap: 15px;
+}
+.social-media span:first-child {
+  margin-left: -7px;
+}
+.social-media span:not(:first-child) {
+  margin-left: -17px;
 }
 .footer .social-media span {
   cursor: pointer;
@@ -608,6 +615,9 @@ header ul a.active {
   }
   .footer .social-media {
     gap: 0;
+  }
+  .social-media span:not(:first-child) {
+    margin-left: -10px;
   }
   .footer .mobile p {
     margin: 8px 0;
