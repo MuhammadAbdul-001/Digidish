@@ -99,7 +99,7 @@ header ul a.active {
 }
 .hero-section p {
   max-width: 50%;
-  margin: 0 auto;
+  margin: 5px auto 15px;
   text-align: center;
   font-size: 16px;
   padding: 10px;
