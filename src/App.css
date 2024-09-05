@@ -237,7 +237,7 @@ header ul a.active {
 }
 .features-card {
   background-color: #fde280;
-  width: 70%;
+  width: 60%;
   padding: 30px;
 }
 .features-card:not(:last-child) {
@@ -406,6 +406,54 @@ header ul a.active {
 .copyright p {
   text-align: center;
 }
+@media (max-width: 1250px) {
+  .features-img img {
+    width: 100%;
+    max-width: 450px;
+    height: 400px;
+  }
+  .features-card {
+    background-color: #fde280;
+    width: 55%;
+    padding: 30px;
+  }
+}
+@media (max-width: 1150px) {
+  .features-img img {
+    width: 100%;
+    max-width: 400px;
+    height: 400px;
+  }
+  .features-card {
+    background-color: #fde280;
+    width: 50%;
+    padding: 30px;
+  }
+}
+@media (max-width: 1050px) {
+  .features-img img {
+    width: 100%;
+    max-width: 370px;
+    height: 400px;
+  }
+  .features-card {
+    background-color: #fde280;
+    width: 43%;
+    padding: 30px;
+  }
+}
+@media (max-width: 950px) {
+  .features-img img {
+    width: 100%;
+    max-width: 335px;
+    height: 400px;
+  }
+  .features-card {
+    background-color: #fde280;
+    width: 37%;
+    padding: 30px;
+  }
+}
 
 @media (max-width: 800px) {
   .why-digidish {
@@ -457,9 +505,41 @@ header ul a.active {
     gap: 30px;
   }
 }
+@media (max-width: 730px) {
+  .header ul {
+    display: none;
+  }
+  .header > button:last-child {
+    display: none;
+  }
+  .header .desktop {
+    display: block;
+  }
+  .header > div.mobile {
+    display: block;
+  }
+  .header > img.mobile {
+    display: none;
+  }
+  .footer .desktop {
+    display: none;
+  }
+  .footer .mobile {
+    display: block;
+  }
+  .footer > div {
+    flex-direction: column;
+  }
+}
 @media (max-width: 650px) {
   .procedure-cards {
     grid-template-columns: 1fr;
+  }
+  .why-digidish .menu-solution {
+    position: absolute;
+    top: 120px;
+    left: 35%;
+    transform: translateX(-50%);
   }
 }
 @media (max-width: 475px) {
