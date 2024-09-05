@@ -153,23 +153,36 @@ header ul a.active {
   background-color: #4b3b00;
   color: white;
   margin: 120px 0 0;
-  padding: 140px 50px 80px;
+  padding: 180px 50px 80px;
   border-radius: 22px;
 }
 .digidish-cards {
   position: absolute;
-  top: -60px;
+  top: -90px;
+  left: 50%;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 5px;
   max-width: 91.5%;
-  margin: auto;
+  width: 100%;
+  transform: translateX(-50%);
 }
 .digidish-card {
   color: #4b3b00;
   background-color: #fde280;
   padding: 20px;
   border-radius: 12px;
+}
+.digidish-card p {
+  margin: 8px 0;
+}
+.digidish-card .title {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+.digidish-card .title img {
+  width: 25px;
 }
 .menu-solution {
   max-width: 40%;
@@ -184,6 +197,14 @@ header ul a.active {
   align-items: center;
   margin: 0;
   padding: 0;
+}
+.why-digidish .menu-solution {
+  position: absolute;
+  right: 90px;
+  top: 140px;
+}
+.menu-solution img {
+  width: 300px;
 }
 .our-features-container {
   margin-top: 150px;
@@ -243,7 +264,8 @@ header ul a.active {
 .procedure-card {
   display: flex;
   align-items: center;
-  padding: 20px;
+  pdding: 20px;
+  gap: 20px;
 }
 .procedure-card .text {
   border-left: 2px solid #fbc500;
@@ -252,9 +274,11 @@ header ul a.active {
 .procedure-card .img {
   background-color: #fef3cc;
   border-radius: 10px;
-  padding: 20px;
+  /* padding: 20px;
   height: 120px;
+  width: 100%; */
   width: 100%;
+  height: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -378,18 +402,23 @@ header ul a.active {
 
 @media (max-width: 800px) {
   .why-digidish {
-    padding: 40px 50px 120px;
+    padding: 40px 50px 340px;
     margin: 0;
   }
   .digidish-cards {
     grid-template-columns: 1fr;
     max-width: 100%;
     width: 90%;
-    left: 30px;
-    top: 120px;
+    top: 340px;
   }
   .why-digidish > p {
     margin: 0 auto;
+  }
+  .why-digidish .menu-solution {
+    position: absolute;
+    top: 120px;
+    left: 45%;
+    transform: translateX(-50%);
   }
   .our-features-container {
     margin-top: 550px;
@@ -417,11 +446,13 @@ header ul a.active {
   .procedures-container {
     margin-top: 500px;
   }
-  .procedure-cards {
-    grid-template-columns: 1fr;
-  }
   .footer .links {
     gap: 30px;
+  }
+}
+@media (max-width: 650px) {
+  .procedure-cards {
+    grid-template-columns: 1fr;
   }
 }
 @media (max-width: 475px) {
@@ -458,18 +489,36 @@ header ul a.active {
     font-size: 20px;
   }
   .why-digidish {
-    padding: 40px 25px 120px;
+    padding: 40px 25px 360px;
     margin: 40px 0 0;
   }
   .digidish-cards {
     grid-template-columns: 1fr;
     /* max-width: 100%;*/
-    top: 150px;
+    top: 355px;
     left: 50%;
     max-width: 90%;
     width: 100%;
     transform: translateX(-50%);
   }
+  .why-digidish .menu-solution {
+    position: absolute;
+    top: 110px;
+    max-width: 100%;
+    left: 50%;
+    width: 100%;
+    transform: translateX(-50%);
+  }
+  .menu-solution img {
+    width: 100%;
+  }
+  .digidish-card .title {
+    gap: 6px;
+  }
+  .digidish-card .title img {
+    width: 25px;
+  }
+
   .our-features-container {
     margin-top: 670px;
   }
@@ -556,5 +605,20 @@ header ul a.active {
   }
   .footer .links {
     gap: 20px;
+  }
+  .footer .social-media {
+    gap: 0;
+  }
+  .footer .mobile p {
+    margin: 8px 0;
+  }
+  .social-media span {
+    width: 50px;
+  }
+  .social-media span {
+    margin-left: -7px;
+  }
+  .social-media img {
+    width: 60px;
   }
 }

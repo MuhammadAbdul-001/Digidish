@@ -1,3 +1,4 @@
+import features from "../images/Mask group.png";
 function OurFeatures() {
   return (
     <section className="our-features-container">
@@ -8,33 +9,30 @@ function OurFeatures() {
           <div className="features-card">
             <p>
               <span>CUSTOMIZABLE TEMPLATE:</span>Choose from a variety of
-              templates to match your organization style
+              templates to match your organization style.
             </p>
           </div>
           <div className="features-card">
             <p>
-              <span>CUSTOMIZABLE TEMPLATE:</span>Choose from a variety of
-              templates to match your organization style
+              <span>MULTI-DEVICE COMPATIBILITY:</span>Access your digital menu
+              on any device, anywhere.
             </p>
           </div>
           <div className="features-card">
             <p>
-              <span>CUSTOMIZABLE TEMPLATE:</span>Choose from a variety of
-              templates to match your organization style
+              <span>PHOTO AND DESCRIPTION UPLOADS:</span>Add detailed
+              descriptions and high-quality images to showcase your menu.
             </p>
           </div>
           <div className="features-card">
             <p>
-              <span>CUSTOMIZABLE TEMPLATE:</span>Choose from a variety of
-              templates to match your organization style
+              <span>PRICE MANAGEMENT:</span>Easily update and manage prices for
+              all your menu items.
             </p>
           </div>
         </div>
         <div className="features-img">
-          <img
-            src="https://s3-alpha-sig.figma.com/img/dc22/f475/31d048118ebbd5edda36d13e5459dc1c?Expires=1726444800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=E5ds1Qg3RaTzqyWhHkUfnkWTM94ts2p3pKYlOTRG56VG~m9TBgsPwOuCAhh1CNDlMEzTKsHl-G8VhUWoqS3vEgmiHCNEEGvZaQJEls2SCpk-99chuqO9Q~5dkf5fjbD1O3QqXRkGJ5aglMXeoOXZYCZBijkGzdCZfE9FwhRP-auamSun9YGkvbRlKP-NlAzwW3x-h8eP9yh98G5iccJYWmdBG8-PirnhSedEttyL7l1qexYA1fmhWVEEOjF1x80MCdo7N8W5eiiOOG9qfUJvl7jUcvVUULMRe44cnYczd2Gze4XhHHJX85UWJjb2NwWZP8zyBpZPuCgH2Ob81CLByA__"
-            alt="features-img"
-          />
+          <img src={features} alt="features-img" />
         </div>
       </div>
     </section>

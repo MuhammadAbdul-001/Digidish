@@ -1,9 +1,12 @@
 import { NavLink } from "react-router-dom";
 import Buttons from "./Buttons";
+import logo from "../images/logo-desktop.png";
+import mobileLogo from "../images/logo-mobile.png";
 function Header({ displayNav, setDisplayNav }) {
   return (
     <header className="header">
-      <Buttons>LOGO</Buttons>
+      <img src={logo} alt="logo" className="desktop" />
+      <img src={mobileLogo} alt="logo" className="mobile" />
       <ul>
         <li>
           <NavLink to="/">Home</NavLink>
