@@ -543,6 +543,9 @@ header ul a.active {
   }
 }
 @media (max-width: 475px) {
+  .header {
+    padding: 20px;
+  }
   .header ul {
     display: none;
   }
