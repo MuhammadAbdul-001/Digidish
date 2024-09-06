@@ -455,16 +455,16 @@ header ul a.active {
   text-align: start;
   margin: 0 0 0 -25px;
 }
-.contact-info {
+.contact-info,
+.quick-link {
   font-weight: 400;
   line-height: 38.33px;
 }
 .links li {
   line-height: 42px;
 }
-.copyright {
+.footer .copyright {
   border-top: 1px solid white;
-  padding: 10px 0 0;
   font-size: 12px;
 }
 .copyright p {
@@ -629,6 +629,9 @@ header ul a.active {
   }
   .links h1 {
     font-size: 20px;
+  }
+  .footer .copyright {
+    padding: 20px 0;
   }
 }
 @media (max-width: 730px) {
