@@ -31,7 +31,7 @@ function Footer() {
         </div>
         <div className="links">
           <div>
-            <h2>Quick Links</h2>
+            <h1>Quick Links</h1>
             <ul>
               <li>Features</li>
               <li>How it works</li>
@@ -39,7 +39,7 @@ function Footer() {
             </ul>
           </div>
           <div>
-            <h2>Contact Information</h2>
+            <h1 className="contact-info">Contact Information</h1>
             <ul>
               <li>Digidish@gmail.com</li>
               <li>How it works</li>

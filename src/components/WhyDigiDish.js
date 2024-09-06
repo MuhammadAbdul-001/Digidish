@@ -60,8 +60,10 @@ function WhyDigidish() {
             <p>Intuitive design makes managing your menu simple and easy</p>
           </div>
         </div>
-        <p>Enhance Your Menu Management</p>
-        <p> Experience with Our Digital Menu Solution</p>
+        <p>
+          Enhance Your Menu Management Experience with Our Digital Menu Solution
+        </p>
+        {/* <p> Experience with Our Digital Menu Solution</p> */}
         <div className="menu-solution desktop">
           <img src={menuSolution} alt="menu management" />
         </div>
