@@ -736,7 +736,7 @@ header ul a:hover {
   }
   .digidish-cards {
     grid-template-columns: 1fr;
-    /* max-width: 100%;*/
+    gap: 15px;
     top: 275px;
     left: 50%;
     max-width: 90%;
@@ -768,7 +768,7 @@ header ul a:hover {
     font-size: 20px;
   }
   .our-features-container {
-    margin-top: 720px;
+    margin-top: 740px;
   }
   .our-features-container h1 {
     margin-bottom: 30px;
@@ -801,7 +801,7 @@ header ul a:hover {
     font-size: 16px;
   }
   .features-card:not(:last-child) {
-    border-bottom: 2px solid white;
+    border-bottom: 2px solid #e8e8e8;
   }
   .procedures-container {
     margin-top: 580px;
