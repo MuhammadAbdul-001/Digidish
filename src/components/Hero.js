@@ -15,6 +15,7 @@ function Hero() {
         digital solution.
       </p>
       <div className="get-started">
+        <div className="blur-bg"></div>
         <img
           src="https://s3-alpha-sig.figma.com/img/afd1/bbe1/bdf4ec0e418f7549fbdb7308dbe783cb?Expires=1726444800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=FIVZnkFSF08sFnZlMmtZ68e1QFwKAMxbzcKQeTEO0s3phj2eJiTBuE-4J3bBO9S2SLv9c7va3kb9OebdXHmS5dDuZyln3YbC46jhLblm29vAzBdYPzCAF9d2X2PDMjZtv~5rV-HBxAEgeZeI8QSiYofjKE5G3j-objeuC-oCxW-M1E-esF7gmxGDJbN4gquElUqhbddCdWkjPXGjFSLjYfVOUaoohmNX3royVi7paDb6-xYhYQCpEtKdRNjhBr5g1Us5WSIifW5Fw8w5WaLaVeqODAJxQxi7rwdWZO0dEIUcPq~cjJdIW0fAPNwOoFawmaQotKXTl0pofDZwgMgJfg__"
           alt="The Ultimate Guide to Digital Menus for Restaurants.png"
